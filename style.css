@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+
+.name-position{
+  padding: 10px;
+  border-bottom: 4px solid black;
+  text-align: center;
+    
+}
+
+#resume-template{
+  display: none;
+}
+
+#resume-form{
+    background-color: lightblue;
+    padding: 20px 20px 20px 20px;
+}
+#resume-form h1{
+    text-align: left;
+}
+
+  h1, h2, h3 {
+    color: #333;
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  input, textarea, button {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+  }
+  
+  button {
+    width: auto;
+    background-color: #0288D1;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0277BD;
+  }
+  
+  #resume {
+    margin-top: 50px;
+    padding: 20px;
+    
+  }
+  
+  #resume img {
+    max-width: 150px;
+    height: auto;
+  }
+
+ 
+.contact, .links, .edField, .weField{
+    display: flex;
+    gap: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    
+}
+
+.socials a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.myimg {
+    
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover; /* Ensures the image maintains its aspect ratio */
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr; /* This sets the first column to half the size of the second */
+  gap: 20px; /* Optional: adds space between columns */
+  padding: 20px;
+}
+
+.column1, .column2 {
+  padding: 20px;
+  background-color: #f0f0f0; /* Light grey background for better visibility */
+  border: 1px solid #ccc; /* Optional: adds a border around columns */
+}
+
+.column1{
+  text-align: center;
+  background-color: aqua;
+}
+
+.card-header{
+  margin-top: -4;
+  background-color: aqua;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+}
+
+.card{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#fullnameT{
+  font-weight: 980;
+}
+section {
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.card-header, .card-body{
+  margin-top:10px ;
+  margin-bottom: 10px;
+}
+
+#education-section{
+  text-align: center;
+}
+
+#work-section{text-align: center;}
+
+ul {
+    list-style:none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+
+  
+  
